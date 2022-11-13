@@ -1,4 +1,4 @@
-# 3DOF-TVC-Simulation
+# 3DOF rocket-Simulation
 This is my final project for "Multivariable lineair system control" module . This repo contains a 3DOF (two planar coordinates, one rotational coordinate)
 simulation of a thrust vectoring vehicle. This repo contains the Simulink dynamics model, a Matlab file with mass properties and my
 final report.
