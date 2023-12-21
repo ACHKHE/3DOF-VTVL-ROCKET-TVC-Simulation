@@ -6,7 +6,6 @@ final report.
 ## The Simulation
 The translational dynamics were modelled by Newton's Second Law, and the attitude dynamics were modelled by T=Ia.
 The control scheme is full state feedback designed via pole placement and linearizing the dynamics around
-a hover. The true state measurements were corrupted with Gaussian noise and then passed to an Extended Kalman Filter. In addition,
-a saturation block was added to cap the thrust and the thrust vector angle.
+a hover.
 
 The vehicle attempts to follow a reference trajectory that contains an ascent, translation, and then landing.
